@@ -1,0 +1,13 @@
+storage_account_list = [{
+  name = "my-storage-account"
+  smb = {
+    server_hostname = "mystorage.file.core.windows.net"
+    subdirectory    = "/fileshare/"
+    user            = "user"
+    password        = "UGxlYXNlRG9udEhhY2tNZUhhY2tlcm1hbg=="
+  }
+  azure_blob = {
+    container_url = "https://mycontainer.blob.core.windows.net/example"
+    token         = "sp=rl&st=2023-10-19T13:15:31Z&se=2023-10-19T21:15:31Z&spr=https&sv=2022-11-02&sr=c&sig=<string>"
+  }
+}]

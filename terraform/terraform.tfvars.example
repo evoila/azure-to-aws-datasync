@@ -1,0 +1,10 @@
+
+bucket_name  = "my-unique-bucket-name-1234"
+project_tag  = "my-project-tag"
+prefix       = "my-prefix"
+cmk_s3_alias = "my-cmk-alias"
+
+datasync_agent = {
+  name       = "my-agent"
+  ip_address = "1.2.3.4"
+}

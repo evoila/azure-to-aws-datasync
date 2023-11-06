@@ -1,0 +1,3 @@
+bucket="<bucket-name>"
+key="tfstate"
+region="<region>"
