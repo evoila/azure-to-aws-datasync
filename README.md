@@ -29,4 +29,4 @@ terraform apply -var-file="terraform.tfvars" -var-file="storage_accounts.tfvars"
 
 ## Manual Key Rotation
 
-TBA
+Check out this guide: https://repost.aws/knowledge-center/rotate-keys-customer-managed-kms
